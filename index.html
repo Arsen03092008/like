@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center><button onclick="like()"> <img id="hard" src="white heard.png" height="200" width="400"/></button></center>
+</body>
+<script>
+    onnof=false
+    function like () {
+        onnof = !onnof
+        if (onnof) {
+            document.getElementById('hard').src = 'heard.png'
+        }
+        else {
+
+            document.getElementById('hard').src = 'white heard.png'
+        }
+    }
+</script>
+</html>
